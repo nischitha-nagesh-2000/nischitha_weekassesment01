@@ -1,0 +1,25 @@
+package com.lulu.assignment;
+
+import java.util.Scanner;
+
+public class SimpleInterest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("Enter the profit,Time and Rate");
+		int P =sc.nextInt();  
+		int T =sc.nextInt();  
+		int R =sc.nextInt(); 
+		
+		int SI;
+		SI= (P*T*R)/100;       
+		
+		System.out.println("The simple interest is " + SI); 
+		
+		
+			
+	}
+
+}
