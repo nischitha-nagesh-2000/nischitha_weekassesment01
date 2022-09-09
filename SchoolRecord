@@ -1,0 +1,35 @@
+package com.lulu.assignment;
+
+import java.util.Scanner;
+
+public class schoolRecords {
+	
+	Scanner sc= new Scanner(System.in);
+	int id;
+	String address;
+	String name;
+	
+	void addRecords() {
+		System.out.println("We can add the records");
+	}
+	
+	void dispRecords() {
+		System.out.println("We can display the records");
+	}
+	
+	
+}
+package com.lulu.assignment;
+
+public class TesterSchool {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		schoolRecords sc = new schoolRecords();
+		sc.addRecords();
+		sc.dispRecords();
+		
+		System.out.println("Thanks You!");
+	}
+
+}
